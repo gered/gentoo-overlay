@@ -1,0 +1,11 @@
+--- a/misc/unix/grafx2.desktop	2020-12-13 14:03:40.000000000 -0500
++++ b/misc/unix/grafx2.desktop	2023-03-21 13:47:09.666745426 -0400
+@@ -2,7 +2,7 @@
+ Name=GrafX2
+ Comment=Deluxe Paint Clone
+ Comment[fr]=Clone de Deluxe Paint
+-Exec=grafx2 %f
++Exec=grafx2-sdl2 %f
+ Terminal=false
+ Type=Application
+ Icon=grafx2
