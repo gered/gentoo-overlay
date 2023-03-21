@@ -4,12 +4,11 @@ This is my Gentoo overlay, just for my own personal use. This is essentially wha
 used to have in my local ebuild repository, but I decided to put it here in this
 Git repository so I can easily sync changes to all my Gentoo systems.
 
-You probably don't want to use this. I reserve the right to break things randomly.
+**You probably don't want to use this. I reserve the right to break things randomly.**
 
 ### Usage
 
-If you ignored the above warning and want to continue, then add a new file
-`/etc/portage/repos.conf/gered.conf` with the following in it:
+Add a new file `/etc/portage/repos.conf/gered.conf` with the following in it:
 
 ```text
 [gered]
@@ -21,3 +20,5 @@ priority = 100
 ```
 
 You may not want the `priority` set so high as I have it here.
+
+And then just do an `emerge --sync` and you're done.
