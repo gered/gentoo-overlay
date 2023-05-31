@@ -56,6 +56,7 @@ src_configure() {
 	tc-export CC CXX LD AR NM OBJDUMP RANLIB PKG_CONFIG
 
 	local mycmakeargs=(
+		-DUSE_OWN_CURL=OFF                    # own curl builds broken due to wrong url currently. skip it!
 		-DBUILD_SHARED_LIBS=OFF
 		-DUSE_EXTERNAL_JSON=YES               # Workaround for nlohmann_json
 		-DJSON_SOURCES="${WORKDIR}"           # Workaround for nlohmann_json
