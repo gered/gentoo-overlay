@@ -31,6 +31,7 @@ src_configure() {
 
 	local mycmakeargs=(
 		-DBUILD_SHARED_LIBS=OFF
+		-DLAUNCHER_ENABLE_GLFW=OFF   # 2023-08-28: just temporarily to deal with broken glfw source download during build
 	)
 
 	cmake_src_configure
