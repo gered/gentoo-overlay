@@ -8,6 +8,8 @@ inherit git-r3 cmake
 DESCRIPTION="Microsoft Account authentication daemon for mcpelauncher"
 HOMEPAGE="https://github.com/minecraft-linux/msa-manifest"
 SRC_URI="https://github.com/nlohmann/json/releases/download/v3.7.3/include.zip -> nlohmann_json-3.7.3.zip"
+EGIT_BRANCH="master"
+EGIT_COMMIT="e335369d9066229bb075d4a7865424b3407934db"
 EGIT_REPO_URI="https://github.com/minecraft-linux/msa-manifest.git"
 
 LICENSE="MIT GPL-3"

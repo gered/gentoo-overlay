@@ -8,6 +8,7 @@ inherit git-r3 cmake flag-o-matic
 DESCRIPTION="mcpelauncher-linux UI"
 HOMEPAGE="https://github.com/minecraft-linux/mcpelauncher-ui-manifest"
 EGIT_BRANCH="ng"
+EGIT_COMMIT="55645fedc0980b548c5b35ff62373e9b45ded557"
 EGIT_REPO_URI="https://github.com/minecraft-linux/mcpelauncher-ui-manifest.git"
 
 LICENSE="MIT GPL-3"
