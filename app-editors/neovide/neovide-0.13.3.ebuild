@@ -416,6 +416,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 RDEPEND="
+	>=app-editors/neovim-0.10.0
 	dev-libs/openssl
 	dev-libs/expat
 	dev-libs/icu:=
