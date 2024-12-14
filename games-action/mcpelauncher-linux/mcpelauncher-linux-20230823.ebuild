@@ -24,8 +24,8 @@ DEPEND="
 	dev-libs/libevdev
 	x11-libs/libXi
 	dev-qt/qtwebengine:5
-	sys-devel/clang:*
-	sys-devel/llvm:*"
+	llvm-core/clang:*
+	llvm-core/llvm:*"
 RDEPEND="${DEPEND}
 	msa? ( games-util/mcpelauncher-msa-client )
 	ui? ( games-util/mcpelauncher-ui-qt )"
