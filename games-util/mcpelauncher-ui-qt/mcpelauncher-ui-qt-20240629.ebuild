@@ -22,9 +22,13 @@ DEPEND="
 	dev-qt/qtquickcontrols2:5
 	dev-qt/qtsvg:5
 	dev-libs/libzip
-	<=dev-libs/protobuf-21.12" # 2024-06-22: temporary measure due to missing symbol issues during linking when building with newer versions
+	dev-libs/protobuf"
 RDEPEND="${DEPEND}"
 BDEPEND=""
+
+PATCHES="
+	${FILESDIR}/0001-cmake-Fix-compatibility-with-newer-protobuf-versions.patch
+"
 
 src_configure() {
 	# Doesn't like LTO
